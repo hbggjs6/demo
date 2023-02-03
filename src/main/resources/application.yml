@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: root
+    password: wang12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Study?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+
+logging:
+  level:
+   com.demo.dao: debug
+server:
+  port: 9000
+#  mail:
+#    host: smtp.qq.com
+#    password: pdqsmqnjzbzedaaf
+#    username: 3477520946@qq.com
+#    properties:
+#      mail:
+#        smtp:
+#          ssl:
+#            enable: true
